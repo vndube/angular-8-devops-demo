@@ -1,4 +1,4 @@
-FROM angular8-golden As builder
+FROM node:12.16.1-alpine As builder
 
 WORKDIR /usr/src/app
 
